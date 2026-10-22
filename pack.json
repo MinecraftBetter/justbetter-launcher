@@ -1,0 +1,13 @@
+{
+  "name": "JustBetter - Projet Lune",
+  "version": "1.0.1",
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.264",
+  "java": 21,
+  "mrpack": "https://github.com/MinecraftBetter/justbetter-launcher/releases/download/pack-1.0.1/JustBetter-ProjetLune-1.0.1.mrpack",
+  "server": "traded-unmindful.tun.ply.gg:10675",
+  "news": [
+    "Projet Lune : batissez la capitale ensemble et partez pour la Lune avec Create: Northstar.",
+    "Touche H en jeu : objectifs, villes, presidence et tutoriel."
+  ]
+}

@@ -1,0 +1,26 @@
+[package]
+name = "justbetter-launcher"
+version = "1.0.0"
+edition = "2021"
+description = "Launcher du serveur Minecraft JustBetter (NeoForge 1.21.1)"
+license = "MIT"
+
+[dependencies]
+anyhow = "1"
+dirs = "5"
+eframe = "0.31"
+flate2 = "1"
+hex = "0.4"
+image = { version = "0.25", default-features = false, features = ["png"] }
+open = "5"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "default-tls"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha1 = "0.10"
+tar = "0.4"
+zip = { version = "2", default-features = false, features = ["deflate"] }
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+strip = true
